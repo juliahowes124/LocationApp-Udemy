@@ -7,7 +7,7 @@ const Users = () => {
         {
             id: 'u1',
             name: 'Julia Howes',
-            image: '../../assets/profilePic.png',
+            image: 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg',
             places: 3
         }
     ];
