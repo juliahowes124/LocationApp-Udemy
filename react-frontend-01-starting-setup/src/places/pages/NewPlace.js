@@ -18,7 +18,7 @@ const formReducer = (state, action) => {
             }
             return {
                 ...state,
-                input: {
+                inputs: {
                     ...state.inputs,
                     [action.inputId]: { value: action.value, isValid: action.isValid}
                 },
@@ -39,7 +39,12 @@ const NewPlace = () => {
             description: {
                 value: '',
                 isValid: false
+            },
+            address: {
+                value: '',
+                isValid: false
             }
+            
         },
         isValid: false
     });
@@ -79,10 +84,10 @@ const NewPlace = () => {
             errorText="Please enter a valid address."
             onInput={inputHandler}
         />
-        <Button type="submit" disabled={formState.isValid}>
+        <Button type="submit" disabled={!formState.isValid}>
             ADD PLACE
         </Button>
     </form>
-};
+}; 
 
 export default NewPlace;
