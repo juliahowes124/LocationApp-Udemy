@@ -1,0 +1,19 @@
+{
+  "name": "locationapp",
+  "version": "1.0.0",
+  "description": "A simple social app for users to share locations and pictures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliahowes124/LocationApp-UdemyProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliahowes124/LocationApp-UdemyProject/issues"
+  },
+  "homepage": "https://github.com/juliahowes124/LocationApp-UdemyProject#readme"
+}
