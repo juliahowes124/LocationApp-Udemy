@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/juliahowes124/LocationApp-UdemyProject/issues"
   },
-  "homepage": "https://github.com/juliahowes124/LocationApp-UdemyProject#readme"
+  "homepage": "https://github.com/juliahowes124/LocationApp-UdemyProject#readme",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  }
 }
