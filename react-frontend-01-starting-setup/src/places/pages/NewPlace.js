@@ -20,7 +20,6 @@ const NewPlace = () => {
             value: '',
             isValid: false
         }
-        
     }, false);
     
     const placeSubmitHandler = event => {
