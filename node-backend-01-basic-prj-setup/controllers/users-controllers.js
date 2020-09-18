@@ -48,6 +48,7 @@ const signUp = async (req, res, next) => {
         await createdUser.save();
     } catch (err) {
         const error = new HttpError('Registration failed.', 500);
+        console.log(err);
         return next(error);
     }
     
